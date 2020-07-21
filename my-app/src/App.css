@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+.country{
+  fill:green
+}
+.country:hover {
+  fill: lightcoral;
+}
+.sphere{
+  fill: darkblue;
+}
 
 .App-logo {
   height: 40vmin;

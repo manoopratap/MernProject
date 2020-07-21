@@ -30,7 +30,8 @@ class BarChart extends Component {
         d3.select(this).transition().attr("fill", "red");
       })
       .on("mouseout", function (d, i) {
-        d3.select(this).transition()
+        d3.select(this)
+          .transition()
           .attr("fill", (dataPoint) =>
             dataPoint % 2 == 0 ? "orange" : "green"
           );
