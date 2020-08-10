@@ -12,7 +12,7 @@ class App extends Component {
 
     return (
       <div className="App-header">
-        <div>Mannoo Pratap Singh</div>
+        <div>Mannoo </div>
       <WorldMap/>
       <BubbleCircleChart/>
       <FreeCodeCampBarChart/>
